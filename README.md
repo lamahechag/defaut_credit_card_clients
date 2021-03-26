@@ -18,4 +18,5 @@ $ pip install imblearn
 
 # How to read this project
 1. Start by `default_payment.ipynb`, where you can find a full exploratory data analysis, variable selection and two models training with hand-made hyperparameter tuning.
-1. GridSearch
+1. `GridSearch.ipynb`, where there is random serach for hyperparameters.
+1. `PCA_with_FDA.ipynb`, it is a kind of dimensionality reduction for time series variables like PY_AMT, and BILL_AMT. And a new model can be train with those variables.
